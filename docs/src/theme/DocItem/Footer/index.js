@@ -44,7 +44,7 @@ export default function DocItemFooter() {
   }
   return (
     <>
-      <Feedback metadata={metadata}/>
+      {/* <Feedback metadata={metadata}/> */}
       <footer className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
         {canDisplayTagsRow && <TagsRow tags={tags} />}
         {canDisplayEditMetaRow && (
